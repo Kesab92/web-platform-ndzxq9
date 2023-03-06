@@ -35,10 +35,14 @@ body {
   gap: 20px;
   padding: 10px;
   margin-bottom: 20px;
-  justify-content: center;
+  align-items: flex-start;
 }
 .s-Trending__contentHeading {
   font-weight: bold;
+}
+.s-Trending__contentImage {
+  object-fit: contain;
+  max-width: 100px;
 }
 main {
   padding: 1rem;
