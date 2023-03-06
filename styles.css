@@ -9,7 +9,7 @@ body {
 
   background-color: #fff;
 }
-.s-Trending {
+.s-Content {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
