@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Core Sans C', Verdana, sans-serif;
+  color: black;
+
+  background-color: #fff;
+}
+.s-Trending {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+  width: fit-content;
+}
+.s-Image {
+  width: 100%;
+}
+.s-Trending__heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.s-Trending__aside {
+  background-color: #f2eff6;
+  padding: 8px;
+  height: fit-content;
+}
+.s-Trending__content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.s-Trending__contentHeading {
+  font-weight: bold;
+}
+main {
+  padding: 1rem;
+  margin: 10%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
